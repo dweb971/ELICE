@@ -1,0 +1,16 @@
+/*  commentaire invoice    */
+div.col-3:first-child{
+    background-color:#74375e ;
+    height: 250px;
+    text-align: center;
+}
+div.col-3:last-child{
+    
+}
+div.col-9{
+    margin-left: auto;
+}
+.droite{
+    margin-left: 100px;
+}
+   
