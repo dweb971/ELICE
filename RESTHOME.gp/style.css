@@ -1,76 +1,75 @@
-@font-face {
-    font-family: "AbrilFatface-Regular";
-    src: url("fonts/AbrilFatface-Regular .ttf");
- }
-  @font-face{
-    font-family: "DancingScript-VariableFont_wght";
-    src: url("fonts/DancingScript-VariableFont_wght.ttf");
-  }
 
-
-
-
-h1{
-    color: white;
-    font-family: AbrilFatface-Regular ;
-     
-}
-body{
-    background-color: black;
-    margin-left: 170px;
-}
-.btnptj{
-   background: black;
-    color: white;
-    margin-left: 200px;
-    margin-top: 100px;
-    width: 500px;
-    height: 50px;
-}
-.djn{
-    background: black;
-    color: white;
-    margin-left: 200px;
-    margin-top: 100px;
-    width: 500px;
-    height: 50px;
-}
-.dnr{
-    background: black;
-    color: white;
-    margin-left: 200px;
-    margin-top: 100px;
-    width: 500px;
-    height: 50px;
-}
-.ecs{
-    background: black;
-    color: white;
-    margin-left: 200px;
-    margin-top: 100px;
-    width: 500px;
-    height: 50px;
-}
-.mnu{
-    font-family: "DancingScript-VariableFont_wght";
-    color: white;
-
-}
-.rctte{
-    color: white;
-    font-family: "DancingScript-VariableFont_wght";
-}
-.rch{
-    color: white;
-    font-family: "DancingScript-VariableFont_wght";
-}
-
-.btnrctte{
-    background-color: red;
-}
-a{
-    color: white;
-}
-a.hover{
-    color: white;
-}
+    @font-face {
+        font-family: "AbrilFatface-Regular";
+        src: url("fonts/AbrilFatface-Regular .ttf");
+        }
+        @font-face{
+        font-family: "DancingScript-VariableFont_wght";
+        src: url("fonts/DancingScript-VariableFont_wght.ttf");
+        }
+        
+        
+        
+        h1{
+        color: white;
+        font-family: AbrilFatface-Regular ;
+        }
+        body{
+        background-color: black;
+        margin-left: 170px;
+        }
+        .btnptj{
+        background: black;
+        color: white;
+        margin-left: 200px;
+        margin-top: 100px;
+        width: 500px;
+        height: 50px;
+        }
+        .djn{
+        background: black;
+        color: white;
+        margin-left: 200px;
+        margin-top: 100px;
+        width: 500px;
+        height: 50px;
+        }
+        .dnr{
+        background: black;
+        color: white;
+        margin-left: 200px;
+        margin-top: 100px;
+        width: 500px;
+        height: 50px;
+        }
+        .ecs{
+        background: black;
+        color: white;
+        margin-left: 200px;
+        margin-top: 100px;
+        width: 500px;
+        height: 50px;
+        }
+        .mnu{
+        font-family: "DancingScript-VariableFont_wght";
+        color: white;
+        
+        }
+        .rctte{
+        color: white;
+        font-family: "DancingScript-VariableFont_wght";
+        }
+        .rch{
+        color: white;
+        font-family: "DancingScript-VariableFont_wght";
+        }
+        
+        .btnrctte{
+        background-color: red;
+        }
+        a{
+        color: white;
+        }
+        a.hover{
+        color: white;
+        }

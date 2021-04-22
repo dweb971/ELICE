@@ -30,11 +30,9 @@
                         <a>Recherche</a>
                     </div>
                 </header>
-
-
                 <div class="banniere">
                     <h2>
-                        MENUS
+                        COOKIES
                     </h2>
                     <div>
                         <div class="left">
@@ -50,41 +48,68 @@
                         </div>
                     </div>
                 </div>
-
-                <?php 
-setlocale(LC_TIME, 'fr_FR');
-date_default_timezone_set('America/Guadeloupe');
-//echo utf8_encode(strftime('%A %d %B %Y'));
-//echo date('m-d-Y', strtotime('+15 days'));
-
-//echo date('l d F Y');  // jeudi 22 avril 2021
-
-//echo date('l d F Y'); 
-// echo date('d-m-Y', strtotime('+7 days'));
-
-
-
-for($i=0; $i < 6; $i++){
-?>
-<div class="container">
-      <div class="row">
-        <div class="col-8">
-            <a href="index.php"> 
-              <button class="btnptj" type="button" class="btn btn-primary btn-lg btn-block">
-              <?php echo date('l d F Y', strtotime("+ $i days"));    ?>
-
-            </button></a>
-
-
+            </div>
         </div>
-        <div class="col-4">
-
-        </div>
-      </div>
     </div>
-<?php
-}
+    <title>RESTHOME</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="https://assets.afcdn.com/recipe/20160331/45726_w157h157c1.webp" alt="cookies">
+                   
+            </div>
+            <div class="col-6">
+                <h2 class="ign">INGREDIENTS</h2>
+                <p class="ingre">
+                  - sel <br>
+                  - 1 cuillère à café de levure en poudre <br>
+                  - 125g de sucre semoule <br>
+                  - 350g de farine <br>
+                  - 300g de chocolat <br>
+                  - 250g de beurre <br>
+                  - 2 oeufs <br>
+                  - 125g de sucre brun <br>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-6">
+           
+
+Travaillez le beurre mou avec les deux sucres jusqu'à obtention d'un mélange homogène. <br>
+
+Ajoutez les œufs et mélangez bien. <br>
+
+Joignez la farine tamisée, le sel et la levure en poudre. <br>
+
+Mélangez à nouveau. <br>
+
+Rajoutez les pépites de chocolat et mélangez. <br>
+
+Recouvrez le plateau du four de papier cuisson ou sulfurisé, et à l'aide de 2 cuillères à café, disposez-y des petits tas de pâte de la valeur d'une noix. <br>
+
+Veillez à bien les espacer car la pâte s'étale assez fort. <br>
+
+Enfournez et comptez une dizaine de minutes de cuisson (four préchauffé à 180°C). <br>
+
+Laissez les cookies cuits sur une grille pour les laisser refroidir. <br>
+
+Bon appétit ! <br>
 
 
 
-?>
+              
+
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+    </div>
+
+
+</body>

@@ -1,0 +1,188 @@
+
+
+
+
+body {
+    --primary-color: rgba(25, 25, 25, 1);
+    --secondary-color:  rgba(225, 225, 225, 1);
+    padding: 2vh 7.5vw;
+    margin: 0;
+    background-color:  var(--primary-color);
+    color:  var(--secondary-color);
+  }
+header {
+    border: solid .1px transparent;
+      margin: 2.5vh 0;
+  }
+  .navlinks{
+    display: flex;
+    margin: 0 10vw;
+    text-align: center;
+  }
+  .navlinks h1{
+    margin: auto;
+  }
+  .ico>:first-child{
+    float: left;
+  }
+  .ico>:last-child{
+    float: right;
+  }
+  .navlinks{
+    display: flex;
+    margin: 0 10vw;
+    text-align: center;
+  }
+  .navlinks>*{
+    margin: auto;
+    min-width: 100px;
+    width: 20vw;
+  }
+  .navlinks>:first-child, .navlinks>:last-child{
+    border-bottom: solid 2px rgba(225, 225, 225, 1);
+  }
+
+
+  .banniere{
+    --triangle: 30px;
+    position: relative;
+    display: flex;
+    height: 40px;
+    margin: 5vh 10vw;
+    text-align: center;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+  }
+  .banniere h2{
+    margin: auto;
+  }
+  .banniere>div{
+    position: absolute;
+    top: 10px;
+    bottom: -10px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+  }
+  .dotted{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    right: 50px;
+    border-top: dotted 2px var(--secondary-color);
+  }
+  .banniere .left{
+    position: absolute;
+    left: -3px;
+    height: 100%;
+    width: 22px;
+  }
+  .banniere .right{
+    position: absolute;
+    right: -3px;
+    height: 100%;
+    width: 22px;
+  }
+  
+  .triangle-topleft ,.triangle-topleft::before ,.Wtriangle-topleft {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: var(--triangle) solid var(--secondary-color);
+    border-right:  var(--triangle) solid transparent;
+  }
+  .triangle-topleft::before {
+    content: "";
+    border-top-color: var(--primary-color);
+    border-top-width: 22px;
+    border-right-width: 22px;
+    top:  calc((var(--triangle) - 2px) * -1);
+    left: 2px;
+  }
+  .Wtriangle-topleft {
+    border-top-color: var(--secondary-color);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    top: unset;
+    right: unset;
+    bottom: 2px;
+    left: -5px;
+  }
+  .triangle-topright ,.triangle-topright::before ,.Wtriangle-topright {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 30px solid var(--secondary-color);
+    border-left: 30px solid transparent;
+  }
+  .triangle-topright::before {
+    content: "";
+    border-top-color: var(--primary-color);
+    border-top-width: 22px;
+    border-left-width: 22px;
+    top:  calc((var(--triangle) - 2px) * -1);
+    left: calc((var(--triangle) - 5px) * -1);
+  }
+  .Wtriangle-topright {
+    border-top-color: var(--secondary-color);
+    border-top-width: 6px;
+    border-left-width: 6px;
+    top: unset;
+    left: unset;
+    bottom: 2px;
+    right: -5px;
+  }
+  .triangle-bottomleft , .triangle-bottomleft::before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: var(--triangle) solid var(--secondary-color);
+    border-right: var(--triangle) solid transparent;
+  }
+  .triangle-bottomleft::before {
+    content: "";
+    border-bottom-color: var(--primary-color);
+    border-bottom-width: 22px;
+    border-right-width: 22px;
+    bottom:  calc((var(--triangle) - 2px) * -1);
+    left: 2px;
+  }
+  .triangle-bottomright ,.triangle-bottomright::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid var(--secondary-color);
+    border-left: 30px solid transparent;
+  }
+  .triangle-bottomright::before {
+    content: "";
+    border-bottom-color: var(--primary-color);
+    border-bottom-width: 22px;
+    border-left-width: 22px;
+    bottom:  calc((var(--triangle) - 2px) * -1);
+    left: calc((var(--triangle) - 5px) * -1);
+  }
+
+  .ign{
+    margin-left:  165px;
+
+}
+.ingre{
+    margin-left: 165px;
+}
+
+.form-control{
+    margin-left: 70px;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+}

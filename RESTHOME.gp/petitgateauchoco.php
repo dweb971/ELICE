@@ -30,11 +30,9 @@
                         <a>Recherche</a>
                     </div>
                 </header>
-
-
                 <div class="banniere">
                     <h2>
-                        MENUS
+                        PETIT GATEAU AU CHOCOLAT
                     </h2>
                     <div>
                         <div class="left">
@@ -50,41 +48,66 @@
                         </div>
                     </div>
                 </div>
-
-                <?php 
-setlocale(LC_TIME, 'fr_FR');
-date_default_timezone_set('America/Guadeloupe');
-//echo utf8_encode(strftime('%A %d %B %Y'));
-//echo date('m-d-Y', strtotime('+15 days'));
-
-//echo date('l d F Y');  // jeudi 22 avril 2021
-
-//echo date('l d F Y'); 
-// echo date('d-m-Y', strtotime('+7 days'));
-
-
-
-for($i=0; $i < 6; $i++){
-?>
-<div class="container">
-      <div class="row">
-        <div class="col-8">
-            <a href="index.php"> 
-              <button class="btnptj" type="button" class="btn btn-primary btn-lg btn-block">
-              <?php echo date('l d F Y', strtotime("+ $i days"));    ?>
-
-            </button></a>
-
-
+            </div>
         </div>
-        <div class="col-4">
-
-        </div>
-      </div>
     </div>
-<?php
-}
+    <title>RESTHOME</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="https://assets.afcdn.com/recipe/20180302/77829_w1024h768c1cx2592cy1728.webp" alt="petit gateau au chocolat">
+
+            </div>
+            <div class="col-6">
+                <h2 class="ign">INGREDIENTS</h2>
+                <p class="ingre">
+                    - 100g de sucre <br>
+                    - 100g de farine <br>
+                    - 3 oeufs <br>
+                    - 200g de crème dessert au chocolat <br>
+                    - 100g de beurre <br>
+                    - 1 moules à muffin ou des caissettes en papier <br>
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-6">
+
+                Préchauffez le four à 200°C (thermostat 6-7) <br>
+
+
+                Au bain marie ou micro-ondes, faire fondre 160 g de chocolat cassé en morceaux avec le beurre. <br>
+
+                Mélanger les oeufs avec le sucre et la farine et ajouter petit à petit le chocolat fondu. <br>
 
 
 
-?>
+                Remplir les moules ou caissettes en papier, préalablement beurrés, au 3/4 de pâte et enfoncer un carré
+                de chocolat (ou 1/4 du carré) au centre. <br>
+
+
+                A l'aide d'un couteau, hacher le reste du chocolat en pépite, à saupoudrer sur chaque muffins. <br>
+
+
+                Faire cuire à mi-hauteur environ 10 minutes. <br>
+
+
+
+
+
+
+
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
