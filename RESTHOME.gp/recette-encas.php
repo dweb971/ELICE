@@ -63,7 +63,7 @@
     <a href="cookies.php" title=" cookies"  class="form-control">Cookies</a>
     </div>
     <div class="col-6">
-    <a href="petitgateauchoco.php" title="petit gateau chocolat"  class="form-control"></a>
+    <a href="petitgateauchoco.php" title="petit gateau chocolat"  class="form-control">Petit gateau choco</a>
     </div>
   </div>
 </form>
@@ -72,7 +72,7 @@
     <form>
   <div class="row">
     <div class="col-6">
-    <a href="" title=""  class="form-control"></a>
+    <a href="painaubeurre.php" title="pain au beurre"  class="form-control">Pain au beurre</a>
     </div>
     <div class="col-6">
     <a href="" title=""  class="form-control"></a>
